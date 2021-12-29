@@ -1,0 +1,57 @@
+{
+  "name": "flyrobin",
+  "version": "1.0.8",
+  "description": "flyrobin ui ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "webpack-dev-server --config build/webpack.config.base.js ",
+    "build": "webpack --config build/webpack.config.build.js",
+    "lint": "eslint --ext .js,.vue packages",
+    "fix": "prettier --write packages/ & eslint --fix packages/"
+  },
+  "files": [
+    "lib",
+    "src/index.js",
+    "src/mixins",
+    "src/utils",
+    "packages",
+    "types"
+  ],
+  "author": "clarsw",
+  "license": "ISC",
+  "dependencies": {
+    "babel-helper-vue-jsx-merge-props": "^2.0.0",
+    "flyrobin": "^1.0.7"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "vue": "^2.6.12",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-istanbul": "^4.1.1",
+    "babel-plugin-module-resolver": "^2.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-regenerator-runtime": "^6.5.0",
+    "css-loader": "^5.2.0",
+    "eslint": "^7.20.0",
+    "eslint-config-alloy": "^3.10.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "prettier": "^2.2.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "vue-eslint-parser": "^7.5.0",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

@@ -21,18 +21,16 @@
   "author": "clarsw",
   "license": "ISC",
   "dependencies": {
-    "babel-helper-vue-jsx-merge-props": "^2.0.0",
-    "flyrobin": "^1.0.7"
+    "babel-helper-vue-jsx-merge-props": "^2.0.0"
   },
   "peerDependencies": {},
   "devDependencies": {
-    "vue": "^2.6.12",
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-istanbul": "^4.1.1",
     "babel-plugin-module-resolver": "^2.2.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "^1.7.0",
@@ -47,9 +45,10 @@
     "prettier": "^2.2.1",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
+    "vue": "^2.6.12",
     "vue-eslint-parser": "^7.5.0",
     "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.6.12",
+    "vue-template-compiler": "^2.6.14",
     "webpack": "^5.2.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
